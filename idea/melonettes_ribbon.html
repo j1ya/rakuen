@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <title>멜로네츠 리본 만들기</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+            font-family: system-ui, sans-serif;
+        }
+        .image-wrapper {
+            width: 100%;
+            text-align: center;
+        }
+        .image-wrapper img {
+            width: auto;      /* 원본 비율 유지 */
+            max-width: 100%;  /* 화면보다 넓으면 줄이기 */
+            height: auto;     /* 세로는 원본 그대로 → 길어도 OK */
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-wrapper">
+        <img src="ribbon 01.png" alt="리본1" /><br>
+        <img src="ribbon 02.png" alt="리본2" />
+    </div>
+</body>
+</html>
